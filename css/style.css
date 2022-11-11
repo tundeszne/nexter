@@ -13,7 +13,7 @@ body {
   font-family: "Nunito", sans-serif;
   color: #6d5d4b;
   font-weight: 300;
-  line-height: 1.6rem; }
+  line-height: 1.6; }
 
 .container {
   display: grid;
@@ -37,8 +37,11 @@ body {
   grid-column: col-start 7 / full-end; }
 
 .features {
-  background-color: #aaa;
-  grid-column: center-start / center-end; }
+  grid-column: center-start / center-end;
+  margin: 15rem 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem; }
 
 .story__pictures {
   background-color: #c69963;
